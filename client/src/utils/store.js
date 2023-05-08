@@ -1,7 +1,5 @@
-// // using legacy_createStore as it is deprecated
-import { legacy_createStore as createStore} from 'redux';
+import { createStore } from 'redux';
+import reducers from '../utils/reducers'
 
-// implementing reducers
-import reducers from './reducers';
-
-export default createStore(reducers);
+const store = createStore(reducers);
+export default store;
