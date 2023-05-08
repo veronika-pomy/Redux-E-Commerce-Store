@@ -26,9 +26,6 @@ This is an e-commerce website that lets users create an account and check out pr
       <a href="#demo">Demo</a>
     </li>
     <li>
-        <a href="#contributors">Contributors</a>
-    </li>
-    <li>
         <a href="#questions">Questions</a>
     </li>
     <li>
