@@ -8,6 +8,7 @@ import {
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
 
+import { Provider } from 'react-redux';
 import store from './utils/store';
 
 import Home from './pages/Home';
@@ -19,9 +20,6 @@ import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
 import Test from './pages/Test';
-
-// global state uses redux instead of context
-import StoreProvider from './utils/GlobalState';
 
 const httpLink = createHttpLink({
   uri: '/graphql',
@@ -47,7 +45,7 @@ function App() {
     <ApolloProvider client={client}>
       <Router>
         <div>
-          <StoreProvider store={store}>
+          <Provider store={store}>
             <Nav />
             <Routes>
               <Route 
