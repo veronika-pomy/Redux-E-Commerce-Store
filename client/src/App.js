@@ -61,7 +61,7 @@ function App() {
               />
               <Route 
                 path="/success" 
-                element={<Success />} 
+                component={<Success />} 
               />
               <Route 
                 path="/orderHistory" 
