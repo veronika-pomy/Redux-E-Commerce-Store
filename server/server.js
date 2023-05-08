@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('*', function (req, res){
-  response.sendFile(path.resolve(__dirname, 'public', 'index.html'))
+  response.sendFile(path.resolve(__dirname, '../client/public', 'index.html'))
 })
 
 // Create a new instance of an Apollo server with the GraphQL schema
