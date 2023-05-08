@@ -41,6 +41,8 @@ Check out the app by following [this link.]()
 
 This video demonstrates the app's functionality.
 
+https://user-images.githubusercontent.com/111567114/236712047-70a57c26-e8d0-4e05-b96e-1ae85dc52101.mov
+
 ---
 
 ## Questions
