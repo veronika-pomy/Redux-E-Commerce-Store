@@ -16,6 +16,7 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
+import Test from './pages/Test';
 
 // global state uses redux instead of context
 import StoreProvider from './utils/GlobalState';
@@ -62,6 +63,10 @@ function App() {
               <Route 
                 path="/success" 
                 element={<Success />} 
+              />
+              <Route 
+                path="/test" 
+                element={<Test />} 
               />
               <Route 
                 path="/orderHistory" 
