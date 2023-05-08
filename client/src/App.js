@@ -19,7 +19,6 @@ import Signup from './pages/Signup';
 import Nav from './components/Nav';
 import Success from './pages/Success';
 import OrderHistory from './pages/OrderHistory';
-import Test from './pages/Test';
 
 const httpLink = createHttpLink({
   uri: '/graphql',

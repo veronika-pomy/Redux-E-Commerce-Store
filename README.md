@@ -37,7 +37,7 @@ This is an e-commerce website that lets users create an account and check out pr
 
 ## Demo
 
-Check out the app by following [this link.]()
+Check out the app by following [this link.](https://shop-shop-store.herokuapp.com/)
 
 This video demonstrates the app's functionality.
 
@@ -66,6 +66,7 @@ This list includes resources used for the project.
 - [Node](https://nodejs.org/en/)
 - [React](https://react.dev/)
 - [Redux](https://redux.js.org/)
+- [StackOverflow](https://stackoverflow.com/questions/27928372/react-router-urls-dont-work-when-refreshing-or-writing-manually)
 - [Stripe](https://www.npmjs.com/package/stripe)
 
 <p align="right">(<a href="#redux-store">BACK TO TOP</a>)</p>
