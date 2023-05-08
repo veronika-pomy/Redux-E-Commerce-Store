@@ -8,7 +8,11 @@ This is an e-commerce website that lets users create an account and check out pr
 
 ---
 
-
+- The app uses a Redux store instead of the Context API
+- The app uses a Redux provider
+- The app passes reducers to a Redux store instead of using the Context API
+- The app uses Redux instead of the Context API to extract state data from the store
+- The app uses Redux instead of the Context API to dispatch actions
 
 ---
 

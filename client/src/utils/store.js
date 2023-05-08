@@ -1,4 +1,4 @@
-// using legacy_createStore as it is deprecated
+// // using legacy_createStore as it is deprecated
 import { legacy_createStore as createStore} from 'redux';
 
 // implementing reducers
